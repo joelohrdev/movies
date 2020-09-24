@@ -1,0 +1,14 @@
+{
+  movies(where: {favorite: true}) {
+    title
+    releaseDate
+    description {
+      text
+    }
+    coverImage {
+      url
+    }
+    seen
+    favorite
+  }
+}

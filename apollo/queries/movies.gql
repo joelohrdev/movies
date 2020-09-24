@@ -1,0 +1,14 @@
+{
+  movies(orderBy:title_ASC) {
+    title
+    releaseDate
+    description {
+      text
+    }
+    coverImage {
+      url
+    }
+    seen
+    favorite
+  }
+}
