@@ -7,7 +7,7 @@
           <img :src="movie.coverImage.url" class="object-cover w-full h-60" alt="" />
           <div class="flex-grow rounded-b">
             <div class="p-5">
-              <h6 class="font-semibold leading-4 text-orange-500">{{ movie.title }}</h6>
+              <h6 class="font-semibold leading-4 text-orange-500 uppercase">{{ movie.title }}</h6>
             </div>
           </div>
         </div>
