@@ -1,0 +1,13 @@
+query Movies($id: ID!) {
+  movie(id: $id) {
+    id
+    title
+    seen
+    releaseDate
+    own
+    favorite
+    coverImage {
+      url
+    }
+  }
+}
